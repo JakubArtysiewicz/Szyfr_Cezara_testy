@@ -14,4 +14,3 @@ def szyfrCezaraTekst(klucz,tekst):
         wynik = wynik + szyfrCezaraCzar(klucz,i)
     return wynik
 
-print(szyfrCezaraTekst(3,'abc'))
